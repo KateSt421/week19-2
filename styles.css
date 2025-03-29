@@ -1,0 +1,30 @@
+#postForm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+h1,
+#postsContainer {
+  text-align: center;
+}
+
+#title,
+#body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title::placeholder,
+#body::placeholder {
+  font-size: 20px;
+}
+
+button {
+  background-color: cadetblue;
+  border-style: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
